@@ -88,7 +88,7 @@ function Slides({ slides }) {
       </div>
       <div id="slide" className="card text-center">
         <h1 data-testid="title"> {slides[activeSlide].title} </h1>
-        <p data-testid="text"> {slides[activeSlide].title} </p>
+        <p data-testid="text"> {slides[activeSlide].text} </p>
       </div>
     </div>
   );
